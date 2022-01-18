@@ -1,5 +1,5 @@
 //* Import styles
-import { HeroContainer, HeroContent } from "./styles"
+import { HeroContainer, HeroContent, Images, RightImage } from "./styles"
 
 //* Import components
 import Button from "../share/Button"
@@ -34,7 +34,7 @@ export default function Hero() {
             <Button>Sing in with Twitter</Button>
             <a href="#"> Learn more</a>
           </div>
-          <span>
+          <Images>
             <img src={ImgUser1} alt="ImgUser1" />
             <img src={ImgUser2} alt="ImgUser2" />
             <img src={ImgUser3} alt="ImgUser3" />
@@ -44,16 +44,16 @@ export default function Hero() {
             <img src={ImgUser7} alt="ImgUser7" />
             <img src={ImgUser8} alt="ImgUser8" />
             <img src={ImgUser9} alt="ImgUser9" />
-          </span>
+          </Images>
           <p>
-            Join <span>195</span> others who have analyzed their followers and
+            Join <span>195 </span>others who have analyzed their followers and
             scheduled <span>1342</span> tweets!
           </p>
         </div>
-        <span>
+        <RightImage>
           <img src={ImgHeroDesktop} alt="Image desktop" />
           <img src={ImgHeroTablet} alt="Image Tablet" />
-        </span>
+        </RightImage>
       </HeroContent>
     </HeroContainer>
   )

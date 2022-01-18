@@ -53,48 +53,6 @@ export const HeroContent = styled.div`
       }
     }
 
-    span {
-      position: relative;
-      display: flex;
-      img {
-        position: relative;
-
-        left: 0px;
-        width: 50px;
-        @media (max-width: 768px) {
-          display: block;
-        }
-        @media (max-width: 425px) {
-          display: block;
-        }
-
-        &:nth-child(2) {
-          left: -20px;
-        }
-        &:nth-child(3) {
-          left: -40px;
-        }
-        &:nth-child(4) {
-          left: -60px;
-        }
-        &:nth-child(5) {
-          left: -80px;
-        }
-        &:nth-child(6) {
-          left: -100px;
-        }
-        &:nth-child(7) {
-          left: -120px;
-        }
-        &:nth-child(8) {
-          left: -140px;
-        }
-        &:nth-child(9) {
-          left: -160px;
-        }
-      }
-    }
-
     p {
       @media (max-width: 768px) {
         width: 100%;
@@ -106,34 +64,74 @@ export const HeroContent = styled.div`
       }
     }
   }
+`
+export const RightImage = styled.span`
+  width: 100%;
 
-  span {
+  @media (max-width: 768px) {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+  }
+
+  img {
     width: 100%;
 
-    @media (max-width: 768px) {
-      grid-column: 1;
-      grid-row: 1;
-      width: 100%;
+    &:nth-child(2) {
+      display: none;
     }
-
-    img {
-      width: 100%;
-
+    @media (max-width: 768px) {
+      display: none;
+      &:nth-child(2) {
+        display: block;
+      }
+    }
+    @media (max-width: 425px) {
+      display: block;
       &:nth-child(2) {
         display: none;
       }
-      @media (max-width: 768px) {
-        display: none;
-        &:nth-child(2) {
-          display: block;
-        }
-      }
-      @media (max-width: 425px) {
-        display: block;
-        &:nth-child(2) {
-          display: none;
-        }
-      }
+    }
+  }
+`
+export const Images = styled.span`
+  position: relative;
+  display: flex;
+  gap: 0;
+  img {
+    position: relative;
+    left: 0px;
+    width: 50px;
+    @media (max-width: 768px) {
+      display: block;
+    }
+    @media (max-width: 425px) {
+      display: block;
+    }
+
+    &:nth-child(2) {
+      left: -20px;
+    }
+    &:nth-child(3) {
+      left: -40px;
+    }
+    &:nth-child(4) {
+      left: -60px;
+    }
+    &:nth-child(5) {
+      left: -80px;
+    }
+    &:nth-child(6) {
+      left: -100px;
+    }
+    &:nth-child(7) {
+      left: -120px;
+    }
+    &:nth-child(8) {
+      left: -140px;
+    }
+    &:nth-child(9) {
+      left: -160px;
     }
   }
 `
