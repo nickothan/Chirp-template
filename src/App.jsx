@@ -5,14 +5,14 @@ import React, { Suspense } from "react"
 const Home = React.lazy(() => {
   return Promise.all([
     import("./Pages/Home"),
-    new Promise((resolve) => setTimeout(resolve, 10))
+    new Promise((resolve) => setTimeout(resolve, 100))
   ]).then(([moduleExport]) => moduleExport)
 })
 
 export default function App() {
   return (
     <>
-      <Suspense fallback={<>Login...</>}>
+      <Suspense fallback={<>Loading...</>}>
         <Home />
       </Suspense>
     </>

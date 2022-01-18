@@ -48,7 +48,7 @@ export const GlobalStyles = createGlobalStyle`
 
   h1 {
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 800;
 
     @media (max-width: 425px){
         font-size: 32px;
@@ -57,7 +57,7 @@ export const GlobalStyles = createGlobalStyle`
 
   h2 {
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 800;
     margin: 20px 0;
 
     @media (max-width: 425px){
@@ -68,7 +68,7 @@ export const GlobalStyles = createGlobalStyle`
   h3 {
     margin: 15px 0;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 800;
 
     @media (max-width: 425px){
       font-size: 22px;
@@ -77,7 +77,7 @@ export const GlobalStyles = createGlobalStyle`
   h4 {
     margin: 10px 0;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 700;
 
     @media (max-width: 425px){
       font-size: 18px;
