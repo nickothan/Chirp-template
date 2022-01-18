@@ -9,6 +9,7 @@ export const ButtonStyle = styled.button`
   color: ${({ theme }) => theme.colors.white};
   font-weight: 600;
   border-radius: 8px;
+  cursor: pointer;
 
   img {
     width: 40px;

@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const HeroContainer = styled.section`
   display: block;
-  padding: 40px 0;
+  padding-bottom: 40px;
   width: 100vw;
   background-color: ${({ theme }) => theme.colors.fundPrimary};
 `
@@ -14,10 +14,14 @@ export const HeroContent = styled.div`
   margin: auto;
   max-width: 1024px;
 
+  @media (max-width: 1024px) {
+    padding: 20px;
+  }
+
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    margin: 20px;
+    padding: 20px;
   }
 
   div {
@@ -25,6 +29,7 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 100%;
 
     @media (max-width: 768px) {
       grid-column: 1;
@@ -37,6 +42,11 @@ export const HeroContent = styled.div`
       justify-content: start;
       align-items: center;
       gap: 20px;
+      width: 100%;
+
+      @media (max-width: 425px) {
+        flex-direction: column;
+      }
 
       a {
         color: ${({ theme }) => theme.colors.blueDark};
@@ -45,11 +55,18 @@ export const HeroContent = styled.div`
 
     span {
       position: relative;
+      display: flex;
       img {
         position: relative;
 
         left: 0px;
         width: 50px;
+        @media (max-width: 768px) {
+          display: block;
+        }
+        @media (max-width: 425px) {
+          display: block;
+        }
 
         &:nth-child(2) {
           left: -20px;
@@ -79,6 +96,10 @@ export const HeroContent = styled.div`
     }
 
     p {
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+
       span {
         color: ${({ theme }) => theme.colors.blueDark};
         font-weight: 700;
@@ -87,11 +108,14 @@ export const HeroContent = styled.div`
   }
 
   span {
+    width: 100%;
+
     @media (max-width: 768px) {
       grid-column: 1;
       grid-row: 1;
+      width: 100%;
     }
-    width: 100%;
+
     img {
       width: 100%;
 

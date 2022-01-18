@@ -3,6 +3,7 @@ import { HeroContainer, HeroContent } from "./styles"
 
 //* Import components
 import Button from "../share/Button"
+import Header from "../Header"
 
 //* Import images
 import ImgHeroDesktop from "../Assets/Hero-Image-Desktop.png"
@@ -20,6 +21,7 @@ import ImgUser9 from "../Assets/userAvatar09.svg"
 export default function Hero() {
   return (
     <HeroContainer>
+      <Header />
       <HeroContent>
         <div>
           <h1>Twitter analytics taken to a whole new level.</h1>

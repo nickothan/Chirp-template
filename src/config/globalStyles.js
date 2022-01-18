@@ -51,7 +51,7 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 700;
 
     @media (max-width: 425px){
-        font-size: 42px;
+        font-size: 32px;
       }
   }
 
