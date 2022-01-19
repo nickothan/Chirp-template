@@ -4,7 +4,7 @@ export const theme = {
     fundSecond: "#d7f5f5",
     blue: "#3180f5",
     blueDark: "#1f7898",
-    balck: "#000000",
+    black: "#000000",
     text: "#737373",
     white: "#fff",
     btn: "#00acee",
