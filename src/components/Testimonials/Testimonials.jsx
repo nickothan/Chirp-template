@@ -43,7 +43,7 @@ export default function Testimonials() {
   return (
     <TestimonialsContainer>
       <TestimonialsContent>
-        <h3>What our customers say</h3>{" "}
+        <h3>What our customers say</h3>
         <ul>
           {data.map((testimonial) => (
             <Testimonial key={Math.random() * 10} testimonial={testimonial} />

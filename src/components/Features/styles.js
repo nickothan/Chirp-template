@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const FeaturesContainer = styled.section`
   display: flex;
@@ -7,6 +7,10 @@ export const FeaturesContainer = styled.section`
   margin: auto;
   padding: 40px 0;
   max-width: 1024px;
+
+  @media (max-width: 768px) {
+    padding: 40px 20px;
+  }
 
   ul {
     display: grid;
@@ -36,4 +40,4 @@ export const FeaturesContainer = styled.section`
       }
     }
   }
-`
+`;
