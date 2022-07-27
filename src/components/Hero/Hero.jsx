@@ -6,7 +6,7 @@ import Button from "../share/Button"
 import Header from "../Header"
 
 //* Import images
-import ImgHeroDesktop from "../assets/Hero-Image-Desktop.png"
+import ImgHeroDesktop from "../assets/hero-image-desktop.png"
 import ImgHeroTablet from "../assets/Hero-Image-Tablet.png"
 import ImgUser1 from "../assets/userAvatar01.svg"
 import ImgUser2 from "../assets/userAvatar02.svg"
