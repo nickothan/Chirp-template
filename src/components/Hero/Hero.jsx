@@ -21,7 +21,7 @@ import ImgUser9 from "../assets/userAvatar09.svg"
 export default function Hero() {
   return (
     <HeroContainer>
-      <Header />
+      <Header /> 
       <HeroContent>
         <div>
           <h1>Twitter analytics taken to a whole new level.</h1>
