@@ -6,17 +6,17 @@ import Button from "../share/Button"
 import Header from "../Header"
 
 //* Import images
-import ImgHeroDesktop from "../Assets/Hero-Image-Desktop.png"
-import ImgHeroTablet from "../Assets/Hero-Image-Tablet.png"
-import ImgUser1 from "../Assets/userAvatar01.svg"
-import ImgUser2 from "../Assets/userAvatar02.svg"
-import ImgUser3 from "../Assets/userAvatar03.svg"
-import ImgUser4 from "../Assets/userAvatar04.svg"
-import ImgUser5 from "../Assets/userAvatar05.svg"
-import ImgUser6 from "../Assets/userAvatar06.svg"
-import ImgUser7 from "../Assets/userAvatar07.svg"
-import ImgUser8 from "../Assets/userAvatar08.svg"
-import ImgUser9 from "../Assets/userAvatar09.svg"
+import ImgHeroDesktop from "../assets/Hero-Image-Desktop.png"
+import ImgHeroTablet from "../assets/Hero-Image-Tablet.png"
+import ImgUser1 from "../assets/userAvatar01.svg"
+import ImgUser2 from "../assets/userAvatar02.svg"
+import ImgUser3 from "../assets/userAvatar03.svg"
+import ImgUser4 from "../assets/userAvatar04.svg"
+import ImgUser5 from "../assets/userAvatar05.svg"
+import ImgUser6 from "../assets/userAvatar06.svg"
+import ImgUser7 from "../assets/userAvatar07.svg"
+import ImgUser8 from "../assets/userAvatar08.svg"
+import ImgUser9 from "../assets/userAvatar09.svg"
 
 export default function Hero() {
   return (

@@ -5,9 +5,9 @@ import { TestimonialsContainer, TestimonialsContent } from "./styles"
 import Testimonial from "../Testimonial"
 
 //* Import assets
-import ImgUser1 from "../Assets/userAvatar01.svg"
-import ImgUser4 from "../Assets/userAvatar04.svg"
-import ImgUser6 from "../Assets/userAvatar06.svg"
+import ImgUser1 from "../assets/userAvatar01.svg"
+import ImgUser4 from "../assets/userAvatar04.svg"
+import ImgUser6 from "../assets/userAvatar06.svg"
 
 const data = [
   {

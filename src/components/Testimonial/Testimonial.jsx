@@ -1,5 +1,5 @@
 //* Import assets
-import TwitterBlue from "../Assets/TwitterBlue.svg"
+import TwitterBlue from "../assets/TwitterBlue.svg"
 
 //* Import styles
 import {

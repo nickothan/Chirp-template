@@ -1,5 +1,5 @@
 //* Import assets
-import Check from "../Assets/Checkmark.svg"
+import Check from "../assets/Checkmark.svg"
 
 //* Import components
 import Button from "../share/Button"
