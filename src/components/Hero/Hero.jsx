@@ -6,7 +6,7 @@ import Button from "../share/Button"
 import Header from "../Header"
 
 //* Import images
-import ImgHeroDesktop from "../assets/hero-image-desktop.png"
+import imgHeroDesktop from "../assets/hero-image-desktop.png"
 import ImgHeroTablet from "../assets/Hero-Image-Tablet.png"
 import ImgUser1 from "../assets/userAvatar01.svg"
 import ImgUser2 from "../assets/userAvatar02.svg"
@@ -51,7 +51,7 @@ export default function Hero() {
           </p>
         </div>
         <RightImage>
-          <img src={ImgHeroDesktop} alt="Image desktop" />
+          <img src={imgHeroDesktop} alt="Image desktop" />
           <img src={ImgHeroTablet} alt="Image Tablet" />
         </RightImage>
       </HeroContent>
