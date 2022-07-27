@@ -5,7 +5,7 @@ import { useState } from "react"
 import { ContenidoHeader, MenuMovil, Navigation } from "./styles.js"
 
 //* Import assets
-import BarMenu from "../assets/hamburgerMenu.svg"
+import BarMenu from "../../assets/hamburgerMenu.svg"
 
 //* Import components
 import Button from "../share/Button"

@@ -2,7 +2,7 @@
 import { ButtonStyle } from "./styles"
 
 //* Import image
-import Twitter from "../../assets/Twitter.svg"
+import Twitter from "../../../assets/Twitter.svg"
 
 export default function Button({ type = "button", children, ...arg }) {
   return (

@@ -2,7 +2,7 @@
 import { FooterContainer } from "./styles"
 
 //* Import assets
-import TwitterBlack from "../assets/TwitterBlack.svg"
+import TwitterBlack from "../../assets/TwitterBlack.svg"
 
 export default function Footer() {
   return (
